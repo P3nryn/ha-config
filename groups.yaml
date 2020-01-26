@@ -1,0 +1,64 @@
+living:
+  name: Wohnzimmer
+  entities:
+    - light.livingroom_tv_area_lights
+    - light.livingroom_sofa_area_lights
+    - light.livingroom_entrance_area_lights
+    - light.livingroom_kitchen_area_lights
+    - cover.living_terrace
+    - cover.living_dining
+    - cover.living_balcony_door
+    - cover.living_tv
+    - sensor.temp_wz_eingang
+    - sensor.temp_wz_tv
+kitchen:
+  name: Küche
+  entities:
+    - light.kitchen_entrance_lights
+    - light.kitchen_area_lights
+    - cover.kitchen_street
+    - cover.kitchen_terrace
+    - sensor.temp_kitchen
+hallway:
+  name: Flur
+  entities:
+    - light.hallway_lights
+    - light.wardrobe_light
+    - sensor.temp_hallway
+child:
+  name: Kinderzimmer
+  entities:
+    - light.childs_room_light
+    - cover.child_balcony
+    - cover.child_window
+    - sensor.temp_child
+sleep:
+  name: Schlafzimmer
+  entities:
+    - light.sleeping_room_light
+    - cover.sleep_garage
+    - cover.sleep_street
+    - sensor.temp_sleep
+closet:
+  name: Ankleidezimmer
+  entities:
+    - light.dressing_room_light
+bath:
+  name: Badezimmer
+  entities:
+    - light.bathroom_lights
+    - light.bathroom_mirror_light
+    - cover.bath
+    - sensor.temp_bath
+guestbath:
+  name: Gäste Badezimmer
+  entities:
+    - light.bathroom_guests_light
+    - light.bathroom_guests_mirror_light
+    - cover.guest_bath
+    - sensor.temp_guest_bath
+laundry:
+  name: Wirtschaftsraum
+  entities:
+    - light.laundryroom_light
+    - sensor.temp_laundry

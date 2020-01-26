@@ -1,0 +1,7 @@
+name: HomeAssistant
+auto_start: true
+filter:
+  include_domains:
+    - light
+    - cover
+    - sensor

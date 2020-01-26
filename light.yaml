@@ -1,0 +1,64 @@
+- platform: knx #G
+  name: livingroom_tv_area_lights
+  address: 2/1/106
+  state_address: 2/5/7
+- platform: knx #F
+  name: livingroom_sofa_area_lights
+  address: 2/1/105
+  state_address: 2/5/6
+- platform: knx #E
+  name: livingroom_entrance_area_lights
+  address: 2/1/104
+  state_address: 2/5/5
+- platform: knx #D
+  name: livingroom_kitchen_area_lights
+  address: 2/1/13
+  state_address: 2/5/4
+- platform: knx #C
+  name: kitchen_entrance_lights
+  address: 2/1/12
+  state_address: 2/5/3
+- platform: knx #B
+  name: kitchen_area_lights
+  address: 2/1/11
+  state_address: 2/5/2
+- platform: knx #A
+  name: hallway_lights
+  address: 2/1/113
+  state_address: 2/5/1
+- platform: knx #H
+  name: childs_room_light
+  address: 2/1/20
+  state_address: 2/5/8
+- platform: knx #I
+  name: dressing_room_light
+  address: 2/1/21
+  state_address: 2/5/9
+- platform: knx #J
+  name: sleeping_room_light
+  address: 2/1/23
+  state_address: 2/5/10
+- platform: knx #K
+  name: bathroom_lights
+  address: 2/1/24
+  state_address: 2/5/11
+- platform: knx #L
+  name: bathroom_mirror_light
+  address: 2/1/29
+  state_address: 2/5/12
+- platform: knx #M
+  name: bathroom_guests_mirror_light
+  address: 2/1/50
+  state_address: 2/5/13
+- platform: knx #N
+  name: bathroom_guests_light
+  address: 2/1/26
+  state_address: 2/5/14
+- platform: knx #O
+  name: laundryroom_light
+  address: 2/1/27
+  state_address: 2/5/15
+- platform: knx #P
+  name: wardrobe_light
+  address: 2/1/28
+  state_address: 2/5/16

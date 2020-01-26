@@ -1,0 +1,54 @@
+# Configure a default setup of Home Assistant (frontend, api, etc)
+homeassistant:
+  auth_providers:
+    - type: homeassistant
+  name: Home
+  elevation: 51
+  unit_system: metric
+  time_zone: Europe/Berlin
+  customize: !include customize.yaml
+
+config:
+frontend:
+history:
+logbook:
+person:
+map:
+mobile_app:
+discovery:
+ios:
+cloud:
+ssdp:
+sun:
+system_health:
+updater:
+
+zone: !include zones.yaml
+
+
+
+input_boolean:
+  jess_home:
+    name: Jess Zuhause
+  micha_home:
+    name: Micha Zuhause
+
+tts:
+  - platform: google_translate
+
+knx: !include knx.yaml
+light: !include light.yaml
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+homekit: !include homekit.yaml
+cover: !include cover.yaml
+sensor: !include sensor.yaml
+# device_tracker: !include tracker.yaml
+unifi:
+  controllers:
+    - host: unifi
+      site: Default
+      ssid_filter:
+        - 'Outer Rim'
+        - 'Outer Rim_IoT'

@@ -1,0 +1,10 @@
+- alias: 'Send Notification'
+  trigger:
+    platform: state
+    entity_id: device_tracker.iphone_von_volk_michael_cbc
+    to: 'not_home'
+  action:
+    service: notify.mobile_app_iphone_von_volk_michael_cbc
+    data:
+      title: "Smart Home Alerts"
+      message: "you have left the house"

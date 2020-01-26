@@ -1,0 +1,102 @@
+light.livingroom_tv_area_lights:
+  friendly_name: Wz TV
+  homebridge_visible: true
+light.livingroom_sofa_area_lights:
+  friendly_name: Wz Sofa
+  homebridge_visible: true
+light.livingroom_entrance_area_lights:
+  friendly_name: WZ Eingang
+  homebridge_visible: true
+light.livingroom_kitchen_area_lights:
+  friendly_name: WZ Esstisch
+  homebridge_visible: true
+light.kitchen_entrance_lights:
+  friendly_name: Küche Eingang
+  homebridge_visible: true
+light.kitchen_area_lights:
+  friendly_name: Küche
+  homebridge_visible: true
+light.hallway_lights:
+  friendly_name: Flur
+  homebridge_visible: true
+light.childs_room_light:
+  friendly_name: Kinderzimmer
+  homebridge_visible: true
+light.dressing_room_light:
+  friendly_name: Ankleidezimmer
+  homebridge_visible: true
+light.sleeping_room_light:
+  friendly_name: Schlafzimmer
+  homebridge_visible: true
+light.bathroom_lights:
+  friendly_name: Badezimmer
+  homebridge_visible: true
+light.bathroom_mirror_light:
+  friendly_name: Badezimmer Spiegel
+  homebridge_visible: true
+light.bathroom_guests_mirror_light:
+  friendly_name: Gäste Bad Spiegel
+  homebridge_visible: true
+light.bathroom_guests_light:
+  friendly_name: Gäste Bad
+  homebridge_visible: true
+light.laundryroom_light:
+  friendly_name: Hauswirtschafsraum
+  homebridge_visible: true
+light.wardrobe_light:
+  friendly_name: Garderobe
+  homebridge_visible: true
+cover.kitchen_street:
+  friendly_name: Jalousie Straße
+  homebridge_visible: true
+cover.kitchen_terrace:
+  friendly_name: Jalousie Terrase
+  homebridge_visible: true
+cover.living_terrace:
+  friendly_name: Jalousie Terrasen Türe
+  homebridge_visible: true
+cover.living_dining:
+  friendly_name: Jalousie Essbereich
+  homebridge_visible: true
+cover.living_balcony_door:
+  friendly_name: Jalousie Balkontür
+  homebridge_visible: true
+cover.living_tv:
+  friendly_name: Jalousie TV
+  homebridge_visible: true
+cover.child_balcony:
+  friendly_name: Jalousie Balkon
+  homebridge_visible: true
+cover.child_window:
+  friendly_name: Rollo Fenster
+  homebridge_visible: true
+cover.sleep_garage:
+  friendly_name: Rollo Garage
+  homebridge_visible: true
+cover.sleep_street:
+  friendly_name: Rollo Straße
+  homebridge_visible: true
+cover.bath:
+  friendly_name: Rollo Bad
+  homebridge_visible: true
+cover.guest_bath:
+  friendly_name: Rollo Gäste Bad
+  homebridge_visible: true
+sensor.temp_kitchen: 
+  friendly_name: Küche Temp
+sensor.temp_wz_eingang: 
+  friendly_name: WZ Eingang Temp
+sensor.temp_wz_tv: 
+  friendly_name: WZ TV Temp
+sensor.temp_child: 
+  friendly_name: Kinderzimmer Temp
+sensor.temp_hallway: 
+  friendly_name: Flur Temp
+sensor.temp_sleep: 
+  friendly_name: Schlafzimmer Temp
+sensor.temp_bath: 
+  friendly_name: Badezimmer Temp
+sensor.temp_guest_bath: 
+  friendly_name: Gäste Bad Temp
+sensor.temp_laundry: 
+  friendly_name: Hauswirtschaftsraum Temp

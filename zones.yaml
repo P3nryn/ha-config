@@ -12,4 +12,4 @@
   latitude: !secret zone3_lat
   longitude: !secret zone3_long
   radius: 50
-  icon: mdi:worker
+  icon: mdi:home

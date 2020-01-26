@@ -30,7 +30,6 @@
   position_state_address: 2/5/165
   travelling_time_down: 65
   travelling_time_up: 65
-  invert_position: true
 - platform: knx
   name: living_tv
   move_long_address: 2/3/11

@@ -25,14 +25,6 @@ updater:
 
 zone: !include zones.yaml
 
-
-
-input_boolean:
-  jess_home:
-    name: Jess Zuhause
-  micha_home:
-    name: Micha Zuhause
-
 tts:
   - platform: google_translate
 

@@ -1,0 +1,15 @@
+- name: !secret zone1
+  latitude: !secret zone1_lat
+  longitude: !secret zone1_long
+  radius: 150
+  icon: mdi:worker
+- name: !secret zone2
+  latitude: !secret zone3_lat
+  longitude: !secret zone3_long
+  radius: 250
+  icon: mdi:worker
+- name: !secret zone3
+  latitude: !secret zone3_lat
+  longitude: !secret zone3_long
+  radius: 50
+  icon: mdi:worker

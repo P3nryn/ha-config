@@ -1,0 +1,7 @@
+secrets.yaml
+
+!.gitignore
+!.HA_VERSION
+
+.www
+.tts

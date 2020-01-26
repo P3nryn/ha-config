@@ -44,10 +44,3 @@ script: !include scripts.yaml
 homekit: !include homekit.yaml
 cover: !include cover.yaml
 sensor: !include sensor.yaml
-unifi:
-  controllers:
-    - host: unifi
-      site: Default
-      ssid_filter:
-        - 'Outer Rim'
-        - 'Outer Rim_IoT'

@@ -44,7 +44,6 @@ script: !include scripts.yaml
 homekit: !include homekit.yaml
 cover: !include cover.yaml
 sensor: !include sensor.yaml
-# device_tracker: !include tracker.yaml
 unifi:
   controllers:
     - host: unifi

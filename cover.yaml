@@ -4,6 +4,8 @@
   move_short_address: 2/3/2
   position_address: 2/6/141
   position_state_address: 2/5/161
+  angle_address: 2/6/161
+  angle_state_address: 2/5/141
   travelling_time_down: 25
   travelling_time_up: 27
 - platform: knx
@@ -12,6 +14,8 @@
   move_short_address: 2/3/4
   position_address: 2/6/142
   position_state_address: 2/5/162
+  angle_address: 2/6/162
+  angle_state_address: 2/5/142
   travelling_time_down: 25
   travelling_time_up: 27
 - platform: knx
@@ -20,6 +24,8 @@
   move_short_address: 2/3/6
   position_address: 2/6/143
   position_state_address: 2/5/163
+  angle_address: 2/6/163
+  angle_state_address: 2/5/143
   travelling_time_down: 25
   travelling_time_up: 27
 - platform: knx
@@ -28,6 +34,8 @@
   move_short_address: 2/3/8
   position_address: 2/6/144
   position_state_address: 2/5/164
+  angle_address: 2/6/164
+  angle_state_address: 2/5/144
   travelling_time_down: 59
   travelling_time_up: 57
 - platform: knx
@@ -36,6 +44,8 @@
   move_short_address: 2/3/10
   position_address: 2/6/145
   position_state_address: 2/5/165
+  angle_address: 2/6/165
+  angle_state_address: 2/5/145
   travelling_time_down: 65
   travelling_time_up: 65
 - platform: knx
@@ -44,6 +54,8 @@
   move_short_address: 2/3/12
   position_address: 2/6/146
   position_state_address: 2/5/166
+  angle_address: 2/6/166
+  angle_state_address: 2/5/146
   travelling_time_down: 59
   travelling_time_up: 57
 - platform: knx
@@ -52,6 +64,8 @@
   move_short_address: 2/3/14
   position_address: 2/6/147
   position_state_address: 2/5/167
+  angle_address: 2/6/167
+  angle_state_address: 2/5/147
   travelling_time_down: 25
   travelling_time_up: 27
 - platform: knx
@@ -60,6 +74,8 @@
   move_short_address: 2/3/16
   position_address: 2/6/148
   position_state_address: 2/5/168
+  angle_address: 2/6/168
+  angle_state_address: 2/5/148
   travelling_time_down: 25
   travelling_time_up: 27
 - platform: knx

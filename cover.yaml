@@ -2,24 +2,32 @@
   name: kitchen_street
   move_long_address: 2/3/1
   move_short_address: 2/3/2
+  position_address: 2/6/141
+  position_state_address: 2/5/161
   travelling_time_down: 25
   travelling_time_up: 27
 - platform: knx
   name: kitchen_terrace
   move_long_address: 2/3/3
   move_short_address: 2/3/4
+  position_address: 2/6/142
+  position_state_address: 2/5/162
   travelling_time_down: 25
   travelling_time_up: 27
 - platform: knx
   name: living_terrace
   move_long_address: 2/3/5
   move_short_address: 2/3/6
+  position_address: 2/6/143
+  position_state_address: 2/5/163
   travelling_time_down: 25
   travelling_time_up: 27
 - platform: knx
   name: living_dining
   move_long_address: 2/3/7
   move_short_address: 2/3/8
+  position_address: 2/6/144
+  position_state_address: 2/5/164
   travelling_time_down: 59
   travelling_time_up: 57
 - platform: knx
@@ -34,18 +42,24 @@
   name: living_tv
   move_long_address: 2/3/11
   move_short_address: 2/3/12
+  position_address: 2/6/146
+  position_state_address: 2/5/166
   travelling_time_down: 59
   travelling_time_up: 57
 - platform: knx
   name: child_balcony
   move_long_address: 2/3/13
   move_short_address: 2/3/14
+  position_address: 2/6/147
+  position_state_address: 2/5/167
   travelling_time_down: 25
   travelling_time_up: 27
 - platform: knx
   name: child_window
   move_long_address: 2/3/15
   move_short_address: 2/3/16
+  position_address: 2/6/148
+  position_state_address: 2/5/168
   travelling_time_down: 25
   travelling_time_up: 27
 - platform: knx

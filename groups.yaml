@@ -11,6 +11,7 @@ living:
     - cover.living_tv
     - sensor.temp_wz_eingang
     - sensor.temp_wz_tv
+    - cover.garage_door
 kitchen:
   name: Küche
   entities:

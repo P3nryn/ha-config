@@ -102,3 +102,9 @@
   move_short_address: 2/3/26
   travelling_time_down: 25
   travelling_time_up: 27
+- platform: mqtt
+  name: "garage door"
+  command_topic: "shellies/shelly1-F4CFA2748777/relay/0/command"
+  payload_open: "on"
+  payload_close: "off"
+  device_class: garage

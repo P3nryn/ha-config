@@ -103,8 +103,11 @@
   travelling_time_down: 25
   travelling_time_up: 27
 - platform: mqtt
-  name: "garage door"
-  command_topic: "shellies/shelly1-F4CFA2748777/relay/0/command"
+  name: "garage_door_big"
+  command_topic: !secret shelley_garage_big_command
+  state_topic: !secret shelley_garage_big_input
+  state_open: "0"
+  state_closed: "1"
   payload_open: "on"
-  payload_close: "off"
+  payload_close: "on"
   device_class: garage

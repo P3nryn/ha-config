@@ -82,6 +82,9 @@ cover.bath:
 cover.guest_bath:
   friendly_name: Rollo Gäste Bad
   homebridge_visible: true
+cover.garage_door_big:
+  friendly_name: Doppel Garage
+  homebridge_visible: true
 sensor.temp_kitchen: 
   friendly_name: Küche Temp
 sensor.temp_wz_eingang: 

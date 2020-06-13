@@ -63,3 +63,7 @@ laundry:
   entities:
     - light.laundryroom_light
     - sensor.temp_laundry
+garages: 
+  name: Garagen
+  entities: 
+    - cover.garage_door_big

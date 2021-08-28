@@ -1,10 +1,13 @@
-- alias: 'Send Notification'
+- alias: 'Create Weekly Backup'
+  initial_state: 'on'
   trigger:
-    platform: state
-    entity_id: device_tracker.iphone_von_volk_michael_cbc
-    to: 'not_home'
+    platform: time
+    at: '02:00:00'
+  condition:  
+    condition: time
+    weekday:
+      - sun
   action:
-    service: notify.mobile_app_iphone_von_volk_michael_cbc
-    data:
-      title: "Smart Home Alerts"
-      message: "you have left the house"
+    service: hassio.snapshot_full
+    data_template:
+      name: Hassio ({{now().strftime('%d.%m.%y')}})

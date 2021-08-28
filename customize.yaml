@@ -1,6 +1,5 @@
 light.livingroom_tv_area_lights:
-  friendly_name: Wz TV
-  homebridge_visible: true
+  friendly_name: 'Wz TV'
 light.livingroom_sofa_area_lights:
   friendly_name: Wz Sofa
   homebridge_visible: true
@@ -84,6 +83,9 @@ cover.guest_bath:
   homebridge_visible: true
 cover.garage_door_big:
   friendly_name: Doppel Garage
+  homebridge_visible: true
+cover.garage_door_small:
+  friendly_name: Kleine Garage
   homebridge_visible: true
 sensor.temp_kitchen: 
   friendly_name: Küche Temp

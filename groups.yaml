@@ -67,3 +67,4 @@ garages:
   name: Garagen
   entities: 
     - cover.garage_door_big
+    - cover.garage_door_small

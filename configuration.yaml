@@ -71,10 +71,8 @@ tts:
   - platform: google_translate
 
 knx: !include knx.yaml
-#light: !include light.yaml
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
 homekit: !include homekit.yaml
 cover: !include cover.yaml
-#sensor: !include sensor.yaml

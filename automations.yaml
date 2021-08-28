@@ -1,5 +1,5 @@
 - alias: 'Create Weekly Backup'
-  initial_state: 'on'
+  initial_state: true
   trigger:
     platform: time
     at: '02:00:00'

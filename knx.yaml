@@ -1,7 +1,7 @@
 tunneling:
-  host: '192.168.1.12'
+  host: !secret knx_gateway
   port: 3671
-  local_ip: '192.168.1.101'
+  local_ip: !secret knx_host
 light: !include knx_light.yaml
 cover: !include knx_cover.yaml
 sensor: !include knx_sensor.yaml

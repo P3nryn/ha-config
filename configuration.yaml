@@ -76,3 +76,4 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 homekit: !include homekit.yaml
 cover: !include cover.yaml
+light: !include light_groups.yaml

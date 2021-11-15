@@ -1,0 +1,22 @@
+  - platform: group
+    name: treppenhaus_og_dg
+    entities:
+      - light.stairwell_top_floor
+      - light.stairwell_first_floor
+  - platform: group
+    name: treppenhaus_og_eg
+    entities:
+      - light.stairwell_ground_floor
+      - light.stairwell_first_floor
+  - platform: group
+    name: treppenhaus_eg_kg
+    entities:
+      - light.stairwell_ground_floor
+      - light.stairwell_basement
+  - platform: group
+    name: treppenhaus_alle
+    entities:
+      - light.stairwell_basement
+      - light.stairwell_ground_floor
+      - light.stairwell_first_floor
+      - light.stairwell_top_floor
